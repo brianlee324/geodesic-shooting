@@ -1,7 +1,7 @@
 # geodesic-shooting - surface registration in PyTorch using auto differentiation
 
 ## Overview
-This package performs geodesic shooting [1] between triangulated surfaces using a currents cost function [2] (not requiring corresponding surface vertices) using PyTorch's auto differentiation, for the purpose of easily modifying the algorithm.
+This package performs geodesic shooting [1] between triangulated surfaces using a currents cost function [2] (not requiring corresponding surface vertices) using PyTorch's auto differentiation, for the purpose of easily modifying the algorithm. The currents matching cost function is implemented in PyTorch based on https://github.com/saurabh-jain/registration/blob/master/py-lddmm/surfaces.py.
 
 See ./examples/ directory for example Jupyter notebooks.
 
