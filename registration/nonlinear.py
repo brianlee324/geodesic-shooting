@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-
+from registration.trajectory import *
 
 # evolve points over simulation time
 def shoot(q,p0,nT,sigma,device='cpu'):
