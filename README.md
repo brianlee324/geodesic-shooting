@@ -16,6 +16,25 @@ Download the package with: git clone github.com/brianlee324/geodesic-shooting.gi
 
 In a Python session, generate a pair of Nx3 and Mx3 arrays representing faces and vertices of a triangulated surface. The second pair does not require corresponding numbers of vertices.
 
+### Example Images: Transport of points
+<p float="left">
+  <img src="/data/cube_arrows.png" height="200" />
+  <img src="/data/cube_expand.gif" height="200" /> 
+</p>
+
+### Example Images: Transport of vectors
+<p float="left">
+  <img src="/data/cube_to_sphere.gif" height="200" />
+  <img src="/data/cube_arrows_transport.gif" height="200" /> 
+  <img src="/data/transport_target.png" height="200" /> 
+</p>
+
+### Example Images: Surface expansion
+<p float="left">
+  <img src="/data/pyramid_vectors.gif" height="200" />
+  <img src="/data/pyramid_jacobian.gif" height="200" /> 
+</p>
+
 ### Example: Nonlinear Surface Matching
 ```python
 niter = 750 # number of iterations
